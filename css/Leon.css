@@ -66,6 +66,15 @@ a {
         font-size: 80px;
     }
 }
+.up {
+    position: fixed;
+    right: 20px;
+    bottom: 75px;
+    font-size: 50px;
+}
+.up i {
+    color: #2196f3;
+}
 /* End Components */
 /* Start Header */
 .header .container {
@@ -397,6 +406,9 @@ a {
 .contact .container .social {
     display: flex;
     justify-content: center;
+}
+.contact .container .social p {
+
 }
 .contact .container .social i {
     margin-left: 10px;
